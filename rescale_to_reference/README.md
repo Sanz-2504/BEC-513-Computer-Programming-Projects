@@ -24,7 +24,7 @@ rescale_to_reference/
 ├── reference.hist               # Target fragment length probability baseline matrix
 ├── query_rescaled.bed           # Final balanced, downsampled output dataset
 ├── rescale_to_reference.py      # Main pipeline script with unrolled logic lines
-└── project2_rescaling_profile.png # Exported high-resolution verification chart
+└── rescaling_profile.png # Exported high-resolution verification chart
 ```
 
 ---
