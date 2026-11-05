@@ -38,13 +38,13 @@ The script utilizes dynamic positional command-line arguments (`sys.argv`), allo
 
 ### Command Structure
 ```bash
-python quick_bed_sort.py <sample_name> <selection_name> <selection_file> <input_bed_files...>
+python3 quick_bed_sort.py <sample_name> <selection_name> <selection_file> <input_bed_files...>
 ```
 
 ### Run Command for this Dataset
 Open a terminal instance inside the `quick_sort_bed` directory and execute the pipeline using the following command structure:
 ```bash
-python quick_bed_sort.py X standard selection.tsv shuf.a.bed.gz shuf.b.bed.gz
+python3 quick_bed_sort.py X standard selection.tsv shuf.a.bed.gz shuf.b.bed.gz
 ```
 
 ### Output Verification
