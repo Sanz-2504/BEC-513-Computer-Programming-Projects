@@ -14,7 +14,7 @@ Each subfolder in this repository functions as an independent, fully documented 
 *   **📂 [rescale_to_reference](./rescale_to_reference):** Corrects library fragment-length extraction and amplification biases using a **Two-Pass Stochastic Rejection Sampling** downsampler that matches a target baseline envelope curve.
 *   **📂 [v_plot](./v_plot):** Processes cell-free DNA (cfDNA) alignment streams via standard input, evaluates physical fragment midpoints, computes spatial offsets relative to transcription factor binding motifs (CTCF), and exports data matrices formatted for Gnuplot heatmaps.
 
-```
+---
 ## ⚙️ Environment Setup & Installation
 
 To run any script within the individual subdirectories, ensure that the following requirements are met in the local terminal environment:
@@ -25,4 +25,4 @@ pip install matplotlib
 
 # (Optional) Verify Gnuplot installation for Project 3 rendering
 gnuplot --version
-```
+---
